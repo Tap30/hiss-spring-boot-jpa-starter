@@ -10,9 +10,14 @@
     <description>Integrates Hiss library with Spring data JPA</description>
     <developers>
         <developer>
-            <id>mkay1375</id>
-            <name>Mostafa Kazemi</name>
-            <email>mkay1375@gmail.com</email>
+            <id>Haniyeh.Nasseri</id>
+            <name>Haniyeh Nasseri</name>
+            <email>haniyeh.nasseri99@gmail.com</email>
+        </developer>
+        <developer>
+            <id>Mohammad.Izadi</id>
+            <name>Mohammad Izadi</name>
+            <email>mohammad.izadi.2003@gmail.com</email>
         </developer>
     </developers>
     <licenses>
