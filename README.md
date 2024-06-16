@@ -44,11 +44,12 @@ HISS_DEFAULT_HASHING_ALGORITHM=hmac-sha256
 For more information about envs see
 [this](https://github.com/Tap30/hiss?tab=readme-ov-file#hisspropertiesfromenvprovider).
 
-### 3. Annotate your class with `@Encrypted`
+### 3. Annotate your class with `@EntityListeners(value = {HissJpaEventListener.class})` and the fields you want to encrypt with `@Encrypted`
 
 ```java
 import io.github.tap30.Encrypted;
 
+@EntityListeners(value = {HissJpaEventListener.class})
 public class User {
     @Encrypted
     private String phoneNumber;
